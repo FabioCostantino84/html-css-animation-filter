@@ -65,10 +65,14 @@
     filter: grayscale(.6) sepia(.5)
 }
 
-.ex-9-img {
-    margin: 50px 100px;
-    width: 400px;
+.ex-8-img{
+    transition: 1.5s;
 }
+.ex-8-img:hover{
+    border-radius: 2rem;
+    filter: sepia(.4) saturate(.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
